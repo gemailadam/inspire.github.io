@@ -1,0 +1,107 @@
+/*
+Theme Name: inspire
+Theme URI: http://inspireforweb.com
+Description: inspire is a customize wordpress profficinal theme
+Version: 1.0.0
+Author:Hesham Hussain
+Author URI: http://inspireforweb.com
+Tags: 1-column 2-column 3-column left-right-sidebar custom-color rtl-language translation-ready responsive-layout
+Copyright: Hesham Hussain
+Licence: GPL V2
+*/
+*{margin-top: 0;}
+body{margin: 0;padding: 0;}
+.nav-qwe li , .nav-qwe ul {margin: 0;padding: 0;}
+
+
+.wrap-odd {background-color: #333;}
+.wrap-50 {background-color: orange;}
+.wrap-100 {background-color:#222;}
+
+.site-title-qwe p{font-size: 3vw;}
+
+@media (max-width:600px){
+.site-title-qwe p{font-size: ;}
+.nav-qwe a {font-size:;}
+.nav-qwe-pri a {font-size:;}
+
+}
+
+.site-title-qwe p {padding:4.16666666666667%;}
+.site-title-qwe p a{color: #fff;}
+
+/*navigation*/
+/*Top Menu */
+
+#search-3{float: right;margin-top: -3%;margin-right: 1%;border-radius: 2%;}
+#search-3 input{border-radius: 10px;}
+#search-3 label{display: none;}
+
+.nav-qwe {
+  width:100%;
+  background:#000;
+
+}
+.nav-qwe a {
+  padding-left:4.16666666666667%;padding-right:4.16666666666667%;
+  display: inline-block;
+  text-decoration:none;
+  color:#fff;
+  white-space:nowrap;
+  font-size:1.5vw;
+  padding:1.1vw 2vw ;
+
+}
+
+.nav-qwe ul {}
+.nav-qwe ul , .nav-qwe li {list-style: none;}
+.nav-qwe li  {position: relative;}
+.nav-qwe div > ul > li {display: inline-block;}
+.nav-qwe > div > ul  li  ul {position: absolute;display: none; background-color:#000; }
+.nav-qwe li:hover > ul{display: block;}
+.nav-qwe > div > ul > li:hover > ul {left:0;top:100%;}
+.nav-qwe > div > ul > li > ul li:hover > ul {left:100%;top:0%;}
+
+/* new  */
+.nav-qwe > div > ul > li:hover > ul {
+    animation-name: bounceInDown;
+    animation-duration: 1s;
+    /*border-radius:5%;*/
+    /*border: 0.1vw solid #666;*/
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+
+/*navigation*/
+
+.nav-qwe-pri {
+  width:90%;
+  margin-left:4.16666666666667%;margin-right:0.0416666666666667%;;
+}
+.nav-qwe-pri a {
+  display: inline-block;
+  text-decoration:none;
+  color:#000;
+  background-color: yellow;
+  white-space:nowrap;
+  padding:1.1vw 2vw ;
+  font-size:1.5vw;
+}
+
+.nav-qwe-pri ul {background-color: yellow;}
+.nav-qwe-pri ul , .nav-qwe-pri li {list-style: none;}
+.nav-qwe-pri li  {position: relative;}
+.nav-qwe-pri div > ul > li {display: inline-block;}
+.nav-qwe-pri > div > ul  li  ul {position: absolute;display: none; background-color:#000; }
+.nav-qwe-pri li:hover > ul{display: block;}
+.nav-qwe-pri > div > ul > li:hover > ul {left:0;top:100%;}
+.nav-qwe-pri > div > ul > li > ul li:hover > ul {left:100%;top:0%;}
+
+/* new  */
+.nav-qwe-pri > div > ul > li:hover > ul {
+    animation-name: bounceInDown;
+    animation-duration: 1s;
+    border-radius:5%;
+    border: 0.1vw solid #666;
+}
