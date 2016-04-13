@@ -258,7 +258,7 @@
 
 /*changed*/
 /*@media (min-width: 1200px) and (max-width: 1260px) {*/
-@media (min-width: 1201px) and (max-width: 1260px) {
+@media (min-width: 1200px) and (max-width: 1260px) {
   .container {
     width: 1200px;
   }
@@ -268,7 +268,7 @@
 /*bootstrap.php result*/
 /*changed*/
 /*@media (min-width: 1150px) and (max-width: 1210px) {*/
-@media (min-width: 1150px) and (max-width: 1201px) {
+@media (min-width: 1150px) and (max-width: 1199px) {
   .container {
     width: 1149px;
   }
