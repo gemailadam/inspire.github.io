@@ -21,6 +21,7 @@
 <title><?php wp_title(''); ?></title>
 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?> ">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/animation.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/hbootstrap.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/hbootstrap-row.css">
 
@@ -33,6 +34,8 @@
 <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Ubuntu:300|Anton|Russo+One|Limelight' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:300|Anton|Russo+One|Abril+Fatface' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Anton|Russo+One|Kaushan+Script|Fredericka+the+Great' rel='stylesheet' type='text/css'>
 
 
 <?php wp_head(); ?>

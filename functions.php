@@ -14,7 +14,7 @@ if ( ! isset( $content_width ) ) {
 ///////////// sidebare 1 ////////////////////
 /////////////////////////////////////////////
 
-function register_search_qwe() {
+function register_search_zxc() {
 $args = array('name' =>'search',
 	'id'=>'search' ,
 	'description'=> 'add search',
@@ -28,11 +28,11 @@ register_sidebar($args);
 
 }
 
-add_action('widgets_init','register_search_qwe');
+add_action('widgets_init','register_search_zxc');
 
-function register_sidebar_qwe() {
-$args = array('name' =>'sidebar',
-	'id'=>'sidebar' ,
+function register_sidebar_zxc() {
+$args = array('name' =>'sidebar-inspire',
+	'id'=>'sidebar-inspire' ,
 	'description'=> 'add sidebar widgets',
 	'class'  => '',
 	'before_widget' => '<li id="%1$s" class="widget %2$s">',
@@ -44,11 +44,11 @@ register_sidebar($args);
 
 }
 
-add_action('widgets_init','register_sidebar_qwe');
+add_action('widgets_init','register_sidebar_zxc');
 
-function register_footer_qwe() {
-$args = array('name' =>'footer',
-	'id'=>'footer' ,
+function register_footer_zxc() {
+$args = array('name' =>'footer-inspire',
+	'id'=>'footer-inspire' ,
 	'description'=> 'add footers links widget',
 	'class'  => '',
 	'before_widget' => '<li id="%1$s" class="widget %2$s">',
@@ -60,13 +60,13 @@ register_sidebar($args);
 
 }
 
-add_action('widgets_init','register_footer_qwe');
+add_action('widgets_init','register_footer_zxc');
 
-function new_excerpt_more_qwe( $more ) {
+function new_excerpt_more_zxc( $more ) {
 	return ' <div><a class="read-more" href="'.
 	get_permalink( get_the_ID() ) . '">' . __(' Continue Reading ', 'your-text-domain') . '</a></div>';
 }
-add_filter( 'excerpt_more', 'new_excerpt_more_qwe' );
+add_filter( 'excerpt_more', 'new_excerpt_more_zxc' );
 
 
 ?>
